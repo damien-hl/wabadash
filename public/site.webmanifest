@@ -1,0 +1,27 @@
+{
+  "short_name": "Wabadash",
+  "name": "Website portfolio of Damien Heulin, Full Stack JavaScript developer",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/tile.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "img/tile.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8273C",
+  "theme_color": "#F8273C"
+}
