@@ -1,10 +1,8 @@
-// Vendors
+// CSS
 import '@fontsource/nunito-sans/200.css'
 import '@fontsource/nunito-sans/400.css'
 import 'normalize.css'
-
-// Custom
-import './assets/app.scss'
+import './main.css'
 
 // Show email after DOM loaded
 window.addEventListener('DOMContentLoaded', () => {
