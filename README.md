@@ -12,18 +12,18 @@ npm install
 ## Development server with hot reload at localhost:3000
 
 ```sh
-npm serve
+npm run dev
 ```
 
 ## Build for production and launch preview server
 
 ```sh
-npm build
-npm start
+npm run build
+npm run preview
 ```
 
 ## Libraries used
-- Vue CLI Service
+- Vite.js
 - Normalize.css
 
 ## Meta
