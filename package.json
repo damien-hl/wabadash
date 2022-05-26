@@ -4,30 +4,22 @@
   "private": true,
   "description": "Portfolio website of Damien Heulin, Full Stask JavaScript developer",
   "keywords": [
-    "portfolio",
     "javascript",
     "developer"
   ],
   "license": "MIT",
   "author": "Damien Heulin",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "start": "http-server ./dist -p 8080"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "core-js": "^3.10.1",
-    "@fontsource/nunito-sans": "^4.2.2",
-    "normalize.css": "^8.0.1",
-    "http-server": "^0.12.3"
+    "@fontsource/nunito-sans": "^4.5.8",
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.12",
-    "@vue/cli-service": "~4.5.12"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "typescript": "^4.7.2",
+    "vite": "^2.9.9"
+  }
 }
