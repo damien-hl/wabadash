@@ -9,6 +9,9 @@
   ],
   "license": "MIT",
   "author": "Damien Heulin",
+  "engines": {
+    "node": ">= 16.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
