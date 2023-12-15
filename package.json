@@ -2,6 +2,7 @@
   "name": "wabadash",
   "version": "2.0.0",
   "private": true,
+  "type": "module",
   "description": "Portfolio website of Damien Heulin, Full Stask JavaScript developer",
   "keywords": [
     "javascript",
@@ -9,24 +10,24 @@
   ],
   "license": "MIT",
   "author": "Damien Heulin",
-  "engines": {
-    "node": ">= 16.0.0"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "format": "prettier --write .",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@fontsource/nunito-sans": "^4.5.9",
+    "@fontsource/nunito-sans": "^5.0.8",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "happy-dom": "^6.0.4",
-    "typescript": "^4.8.2",
-    "vite": "^3.2.7",
-    "vitest": "^0.23.1"
+    "@vitest/coverage-v8": "^1.0.4",
+    "happy-dom": "^12.10.3",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vitest": "^1.0.4"
   }
 }
