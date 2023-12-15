@@ -1,4 +1,5 @@
 # Wabadash
+
 > A tiny website displaying my professional contact links
 
 The deployed website is visible [here](https://wabadash.vercel.app/)
@@ -23,8 +24,10 @@ npm run preview
 ```
 
 ## Libraries used
+
 - Vite.js
 - Normalize.css
 
 ## Meta
+
 Damien Heulin – [Twitter](https://twitter.com/damien_hl) – [Mail](mailto:damienheulin87@gmail.com) – [Github](https://github.com/damien-hl)
