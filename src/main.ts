@@ -11,6 +11,10 @@ window.addEventListener("DOMContentLoaded", () => {
     <HTMLElement>document.getElementById("email"),
     "damienheulin87@gmail.com",
   );
+  setYear(
+    <HTMLElement>document.getElementById("year"),
+    new Date().getFullYear(),
+  );
 });
 
 /**
@@ -20,4 +24,13 @@ window.addEventListener("DOMContentLoaded", () => {
  */
 export function setEmail(link: HTMLElement, email: string) {
   link.setAttribute("href", `mailto:${email}`);
+}
+
+/**
+ * Set the current year
+ * @param {HTMLElement} element
+ * @param {number} year
+ */
+export function setYear(element: HTMLElement, year: number) {
+  element.innerText = year.toString();
 }
