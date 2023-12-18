@@ -25,8 +25,9 @@ npm run preview
 
 ## Libraries used
 
-- Vite.js
-- Normalize.css
+- Vite
+- Vitest
+- Tailwind CSS
 
 ## Meta
 

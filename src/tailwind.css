@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --clr-background: 13, 14, 18;
+    --clr-foreground: 254, 254, 254;
+    --clr-primary: 248, 39, 60;
+    --clr-secondary: 145, 145, 145;
+  }
+}
