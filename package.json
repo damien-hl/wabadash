@@ -19,13 +19,15 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@fontsource/nunito-sans": "^5.0.8",
-    "normalize.css": "^8.0.1"
+    "@fontsource/nunito-sans": "^5.0.8"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^1.0.4",
+    "autoprefixer": "^10.4.16",
     "happy-dom": "^12.10.3",
+    "postcss": "^8.4.32",
     "prettier": "^3.1.1",
+    "tailwindcss": "^3.3.6",
     "typescript": "^5.3.3",
     "vite": "^5.0.10",
     "vitest": "^1.0.4"
