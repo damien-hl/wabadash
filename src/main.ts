@@ -8,10 +8,7 @@ import "./tailwind.css";
 
 setYear(document.getElementById("year"), new Date().getFullYear());
 
-export function setYear(
-  element: HTMLElement | null,
-  year: number
-) {
+export function setYear(element: HTMLElement | null, year: number) {
   if (element === null) return;
   element.innerText = year.toString();
 }

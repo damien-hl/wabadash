@@ -7,11 +7,8 @@ import autoprefixer from "autoprefixer";
 export default defineConfig({
   css: {
     postcss: {
-      plugins: [
-        tailwindcss,
-        autoprefixer
-      ],
-    }
+      plugins: [tailwindcss, autoprefixer],
+    },
   },
   test: {
     globals: true,
