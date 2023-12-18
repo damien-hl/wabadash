@@ -7,6 +7,12 @@ export default <Config>{
   ],
   theme: {
     extend: {
+      colors: {
+        background: `rgb(var(--clr-background))`,
+        foreground: `rgb(var(--clr-foreground))`,
+        primary: `rgb(var(--clr-primary))`,
+        secondary: `rgb(var(--clr-secondary))`
+      },
       fontFamily: {
         sans: ["Nunito Sans", ...defaultTheme.fontFamily.sans],
       }
